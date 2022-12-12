@@ -10,8 +10,8 @@ from PIL import Image
 def main():
     
     ### Path to images (use absolute path)
-    path      = path_correct("D:/Auburn/Research/Projects/Quantum Orbits/Poster/Poster Assets/Plot Assets/Animation/ani_files")
-    name      = 'overlay_of_sfa' # Name of resulting gif file
+    path      = path_correct("<path to images>")
+    name      = 'name' # Name of resulting gif file
     file_type = "PNG"       # Type of file in folder path
     duration  = 250         # Duration of gif in milliseconds
     loop      = 0           # 0 = loop forever, int > 0 means loop that many times
