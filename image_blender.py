@@ -5,7 +5,7 @@ Created on Fri Apr 29 14:06:03 2022
 @author: tzo0018
 """
 from PIL import Image as I
-path = r'D://Auburn//Research//Projects//Quantum Orbits//Poster//Poster Assets//Plot Assets//Animation//'
+path = r'<path>'
 
 bg = I.open(path+'sfa.png'); bg = bg.convert("RGBA")
 fg = I.open(path+'qo.png'); fg = fg.convert("RGBA"); fg = fg.resize((1642,1589))
