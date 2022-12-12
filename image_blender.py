@@ -7,8 +7,8 @@ Created on Fri Apr 29 14:06:03 2022
 from PIL import Image as I
 path = r'<path>'
 
-bg = I.open(path+'sfa.png'); bg = bg.convert("RGBA")
-fg = I.open(path+'qo.png'); fg = fg.convert("RGBA"); fg = fg.resize((1642,1589))
+bg = I.open(path+'<background image>.png'); bg = bg.convert("RGBA")
+fg = I.open(path+'<foreground image>.png'); fg = fg.convert("RGBA"); fg = fg.resize((1642,1589))
 
 res = 100
 for i in range(res):
